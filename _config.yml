@@ -4,8 +4,8 @@
 # 右上角github地址
 github: https://github.com/quiddite
 # 主题颜色
-# color: "#2eacd2"
-color: "#fff"
+color: "#2eacd2"
+# color: "#fff"
 # 页面slogan
 poem: "Nevermore."
 # email 地址
@@ -59,7 +59,7 @@ giscus:
   reactionsEnabled: 1
   emitMetadata: 0
   inputPosition: top
-  selfTheme: true # 设置为true时，下面的theme才会生效，否则使用本主题自制的样式
+  selfTheme: false # 设置为true时，下面的theme才会生效，否则使用本主题自制的样式
   theme: dark
   lang: en
   loading: lazy
