@@ -36,7 +36,6 @@ code:
   # 需要先在根配置文件里开启highlight
   highlight:
     bg: "#fdf6e3"
-    # bg: "#187FC3"
     color: "#187FC3"
   prismjs:
     bg: "#fff"
