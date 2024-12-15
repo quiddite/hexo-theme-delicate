@@ -13,8 +13,8 @@
             <div class="post-info">
                 <span><%- page.author ? page.author + ' |' : "" %></span>
                 <span>
-                    <%- Math.round(page.content.length / 1000) + 'k字 • '  %>
-                    <%- Math.round(page.content.length / 500) + '分钟'  %>
+                    <%- Math.round(page.content.length / 1000) + 'k words • '  %>
+                    <%- Math.round(page.content.length / 500) + 'minutes'  %>
                 </span>
             </div>
         </h1>
@@ -47,13 +47,13 @@
 
     <section class="post-cc">
         <div class="post-cc-author">
-            <span class="bold">作者：</span><%- mail_to(theme.email, config.author) %>
+            <span class="bold">author：</span><%- mail_to(theme.email, config.author) %>
         </div>
         <div class="post-cc-link">
-            <span class="bold">链接：</span><a href="<%- url_for(page.path) %>"><%- decodeURIComponent(page.permalink) %></a>
+            <span class="bold">link：</span><a href="<%- url_for(page.path) %>"><%- decodeURIComponent(page.permalink) %></a>
         </div>
         <div class="post-cc-source">
-            <span class="bold">来源：</span><a href="<%- url_for('/') %>"><%- config.title %></a>
+            <span class="bold">source：</span><a href="<%- url_for('/') %>"><%- config.title %></a>
         </div>
         <div class="ppost-cc-declare">
             <span class="bold">版权声明: </span>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a> 许可协议。著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。 
@@ -66,7 +66,7 @@
                 <a href="<%- url_for(page.prev.path) %>" class="change-link">
                     <span class="icon"><i class="fa fa-angle-double-left"></i></span>
                     <span class="text">
-                        <span class="identify">上一篇</span>
+                        <span class="identify">previous post</span>
                         <span class="text-title"><%- page.prev.title %></span>
                     </span>
                 </a>
@@ -76,7 +76,7 @@
             <% if (page.next){ %>
                 <a href="<%- url_for(page.next.path) %>" class="change-link">
                     <span class="text">
-                        <span class="identify" style="text-align: right;">下一篇</span>
+                        <span class="identify" style="text-align: right;">the next post</span>
                         <span class="text-title" style="text-align: right;"><%- page.next.title %></span>
                     </span>
                     <span class="icon"><i class="fa fa-angle-double-right"></i></span>

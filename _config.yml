@@ -2,13 +2,14 @@
 #  通用配置
 ### ----------------------------------------------------
 # 右上角github地址
-github: https://github.com/can-dy-jack/hexo-theme-delicate
+github: https://github.com/quiddite
 # 主题颜色
-color: "#2eacd2"
+# color: "#2eacd2"
+color: "#fff"
 # 页面slogan
-poem: "长风破浪会有时，直挂云帆济沧海"
+poem: "Nevermore."
 # email 地址
-email: jjack_chen3@163.com
+email: quiddite4dino@gmail.com
 # archive line color
 archiveLineColor: "#dedede"
 # tags color
@@ -20,13 +21,13 @@ categoryColor: "#23ef23"
 #  首页配置
 ### ----------------------------------------------------
 # 首页图片地址
-imgURL: imgs/beach.jpg
+imgURL: imgs/track.png
 index:
   links: 
     archive: /archives/
     tags: /tags/
     categories: /categories/
-    关于我: /about/
+    about: /about/
 
 ### ----------------------------------------------------
 #  markdown配置
@@ -34,8 +35,9 @@ index:
 code:
   # 需要先在根配置文件里开启highlight
   highlight:
-    bg: "#fdf6e3"
-    color: "#586e75"
+    # bg: "#fdf6e3"
+    bg: "#187FC3"
+    color: "#187FC3"
   prismjs:
     bg: "#fff"
     color: "#000"
@@ -57,9 +59,9 @@ giscus:
   reactionsEnabled: 1
   emitMetadata: 0
   inputPosition: top
-  selfTheme: false # 设置为true时，下面的theme才会生效，否则使用本主题自制的样式
-  theme: light
-  lang: zh-CN
+  selfTheme: true # 设置为true时，下面的theme才会生效，否则使用本主题自制的样式
+  theme: dark
+  lang: en
   loading: lazy
 
 ### ----------------------------------------------------

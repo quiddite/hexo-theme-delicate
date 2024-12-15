@@ -10,9 +10,9 @@
     <article class="archive-list">
         <section class="year-group">
             <span class="circle"></span>
-            <span><%- year %> 年</span>
+            <span><%- year %></span>
         </section>
-        <div class="month-group"><%- month %> 月</div>
+        <div class="month-group"><%- month %></div>
         <% for (let post of posts) { %>
             <% 
                 let nowYear = post.date.year();
@@ -21,11 +21,11 @@
             <% if (year !== nowYear) { %>
                 <section class="year-group">
                     <span class="circle"></span>
-                    <span><%- nowYear %> 年</span>
+                    <span><%- nowYear %></span>
                 </section>
-                <div class="month-group"><%- nowMonth %> 月</div>
+                <div class="month-group"><%- nowMonth %></div>
             <% } else if (month !== nowMonth) { %>
-                <div class="month-group"><%- nowMonth %> 月</div>
+                <div class="month-group"><%- nowMonth %></div>
             <% } %>
             <a href="<%- url_for(post.path) %>" class="post-item">
                 <div class="flex-between">
