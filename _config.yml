@@ -77,7 +77,11 @@ CDN:
   prismjs: https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.min.css
 
   # mathjax
-  mathjax: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML
+  mathjax:
+  enable: true
+  per_page: false
+  cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML
+
 
   # katex
   katexStyle: https://cdn.jsdelivr.net/npm/katex@0.10.0-alpha/dist/katex.min.css
