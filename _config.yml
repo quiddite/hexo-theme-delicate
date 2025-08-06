@@ -83,9 +83,9 @@ CDN:
     cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML
 
 
-  # katex
-  katexStyle: https://cdn.jsdelivr.net/npm/katex@0.10.0-alpha/dist/katex.min.css
-  katexJS: 
-    - https://cdn.jsdelivr.net/npm/katex@0.10.0-alpha/dist/katex.min.js
-    - https://cdn.jsdelivr.net/npm/katex@0.10.0-alpha/dist/contrib/auto-render.min.js
+  # # katex
+  # katexStyle: https://cdn.jsdelivr.net/npm/katex@0.10.0-alpha/dist/katex.min.css
+  # katexJS: 
+  #   - https://cdn.jsdelivr.net/npm/katex@0.10.0-alpha/dist/katex.min.js
+  #   - https://cdn.jsdelivr.net/npm/katex@0.10.0-alpha/dist/contrib/auto-render.min.js
 
