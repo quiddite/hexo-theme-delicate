@@ -26,6 +26,17 @@ hexo.extend.generator.register("_categories", function (locals) {
   }
 });
 
+// generate about page
+hexo.extend.generator.register("_about", function (locals) {
+  if (this.theme.config.index.links.about) {
+    return {
+      path: "about/index.html",
+      data: locals.theme,
+      layout: "about",
+    };
+  }
+});
+
 // generate 404 page
 hexo.extend.generator.register("_404", function (locals) {
   return {
