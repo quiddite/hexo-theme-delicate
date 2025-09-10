@@ -5,7 +5,6 @@ paginator:
 # index
 home: home
 archive: archive
-tag: tag
 tags: tags
 categories: categories
 category: category
